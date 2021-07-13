@@ -1,0 +1,818 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+/* 导航栏 */
+
+.nav {
+    background: #f5f5f5;
+    width: 1262px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 12px;
+    color: #939393;
+}
+
+.nav a:hover {
+    color: #f24016;
+}
+
+.zhuce {
+    float: left;
+    width: 380px;
+    height: 40px;
+    /* background: yellow; */
+    margin-left: 40px;
+}
+
+.nav li {
+    float: left;
+    margin: 0 10px;
+    list-style: none;
+}
+
+.nav a {
+    color: #939393;
+    text-decoration: none;
+}
+
+.gongneng {
+    float: left;
+    width: 730px;
+    height: 40px;
+    margin-left: 100px;
+    /* background: blue;s */
+}
+
+.nav i {
+    font-size: 10px;
+}
+
+.search {
+    background: white;
+    width: 1262px;
+    height: 120px;
+    font-size: 12px;
+    color: #939393;
+}
+
+.logo {
+    float: left;
+    margin-left: 90px;
+    width: 120px;
+    height: 120px;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.sou {
+    float: left;
+    width: 650px;
+    height: 100px;
+    margin-top: 10px;
+    margin-left: 90px;
+}
+
+.list {
+    width: 120px;
+    height: 20px;
+}
+
+.guanggao {
+    position: relative;
+    float: left;
+    width: 80px;
+    height: 90px;
+    background: blue;
+    margin-top: 20px;
+    margin-left: 150px;
+}
+
+.guanggao img {
+    width: 100%;
+    height: 100%;
+}
+
+.content {
+    background: #f4f4f4;
+}
+
+.guanggao .cha {
+    position: absolute;
+    display: inline-block;
+    top: 0;
+    left: -15px;
+    width: 15px;
+    height: 15px;
+    background: #f5f5f5;
+}
+
+.sou {
+    width: 630px;
+    height: 90px;
+    /* background: blueviolet; */
+}
+
+.list li {
+    float: left;
+    width: 40px;
+    height: 20px;
+    list-style: none;
+    /* background: #f24016; */
+    text-align: center;
+    border-radius: 4px;
+}
+
+.list li:hover {
+    background: #ffeee5;
+}
+
+.list li a {
+    color: #ff7900;
+    text-decoration: none;
+}
+
+.ss {
+    width: 620px;
+    height: 40px;
+    /* background: blue; */
+    border-radius: 20px;
+    overflow: hidden;
+    border: 2px solid #ff7900;
+}
+
+.shuru {
+    float: left;
+    width: 550px;
+    height: 40px;
+}
+
+.shuru input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    color: #939393;
+    padding-left: 10px;
+    font-size: 12px;
+}
+
+.zhuce li:nth-child(1):hover {
+    background: white;
+}
+
+.dalu {
+    position: relative;
+}
+
+.dalu:hover .diqu {
+    display: block;
+}
+
+.diqu {
+    position: absolute;
+    display: none;
+    width: 250px;
+    height: 220px;
+    background: white;
+    overflow: auto;
+}
+
+.diqu li {
+    float: none;
+}
+
+.sousuo {
+    float: left;
+    width: 70px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    background: linear-gradient(90deg, #ff8b00, #ff5500);
+    text-align: center;
+}
+
+.sousuo a {
+    color: white;
+    text-decoration: none;
+}
+
+.sort a {
+    text-decoration: none;
+    color: #939393;
+}
+
+.sort a:hover {
+    color: #ff7900;
+}
+
+.different {
+    width: 1262px;
+    height: 30px;
+    background: linear-gradient(90deg, #ff8b00, #ff5500);
+    color: #f5f5f5;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 30px;
+}
+
+.different li:nth-child(1) {
+    width: 200px;
+}
+
+.different li {
+    float: left;
+    height: 30px;
+    text-align: center;
+    list-style: none;
+    margin-left: 30px;
+}
+
+.different a {
+    text-decoration: none;
+    color: white;
+}
+
+.wode {
+    position: relative;
+}
+
+.wode:hover {
+    background: white;
+}
+
+.wode:hover .wode-list {
+    display: block
+}
+
+.wode-list {
+    display: none;
+    position: absolute;
+    width: 100px;
+    height: 70px;
+    background: white;
+}
+
+.collect {
+    position: relative;
+}
+
+.collect:hover {
+    background: white;
+}
+
+.collect:hover .collect_list {
+    display: block;
+}
+
+.collect_list {
+    display: none;
+    position: absolute;
+    width: 100px;
+    height: 70px;
+    background: white;
+}
+
+.maijia:hover {
+    background: white;
+}
+
+.maijia:hover .maijia_list {
+    display: block;
+}
+
+.maijia_list {
+    display: none;
+    position: absolute;
+    width: 100px;
+    height: 230px;
+    background: white;
+}
+
+.content {
+    width: 1262px;
+    height: 520px;
+}
+
+.content li {
+    float: left;
+    list-style: none;
+    margin-right: 8px;
+}
+
+.asid {
+    width: 200px;
+    height: 500px;
+    margin-left: 30px;
+    margin-top: 20px;
+    font-size: 15px;
+    color: #939393;
+}
+
+.asid li {
+    text-align: center;
+    width: 190px;
+    height: 40px;
+    line-height: 40px;
+}
+
+.asid li a {
+    text-decoration: none;
+    color: #939393;
+}
+
+.asid li:hover a {
+    color: #ff5500;
+}
+
+.asid li:hover {
+    background: #ffe4dc;
+}
+
+.asid li a:hover {
+    text-decoration: underline;
+}
+
+.asid li span {
+    float: right;
+}
+
+.main {
+    width: 500px;
+    height: 500px;
+}
+
+.news {
+    width: 180px;
+    height: 500px;
+}
+
+.mine {
+    width: 260px;
+    height: 500px;
+    background: white;
+}
+
+.gouwuche {
+    position: relative;
+}
+
+.gouwuche:hover {
+    background: white;
+}
+
+.gouwuche:hover .gouwuche-list {
+    display: block;
+}
+
+.gouwuche-list {
+    display: none;
+    position: absolute;
+    text-align: right;
+    width: 340px;
+    height: 50px;
+    background: white;
+}
+
+.gouwuche-list span {
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background: #ff4400;
+    border-radius: 3px;
+    margin: 10px 20px;
+}
+
+.gouwuche-list span a {
+    color: white;
+}
+
+.gouwuche-list span a:hover {
+    color: white;
+}
+
+.kefu {
+    position: relative;
+}
+
+.kefu:hover {
+    background: white;
+}
+
+.kefu:hover .kefu_list {
+    display: block;
+}
+
+.kefu_list {
+    display: none;
+    position: absolute;
+    z-index: 10;
+    width: 100px;
+    height: 70px;
+    background: white;
+}
+
+.daohang {
+    position: relative;
+}
+
+.daohang:hover {
+    background: white;
+}
+
+.daohang:hover .daohang_list {
+    display: block;
+}
+
+.daohang_list {
+    display: none;
+    position: absolute;
+    z-index: 999;
+    left: -1120px;
+    width: 1200px;
+    height: 300px;
+    background: white;
+}
+
+.daohang_list>ul {
+    width: 1200px;
+    height: 300px;
+    border-left: 1px solid #eeeeee;
+}
+
+.daohang_list>ul>li {
+    border-right: 1px solid #eeeeee;
+}
+
+.daohang_list>ul>li:nth-child(4) {
+    border: none;
+}
+
+.lili {
+    width: 270px;
+}
+
+.listitem a {
+    display: inline-block;
+    width: 32px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin-right: 30px;
+}
+
+.listitem a:hover {
+    color: white;
+}
+
+.zhuti a:hover {
+    background: tomato;
+}
+
+.market a:hover {
+    background: #adc356;
+}
+
+.ali a:hover {
+    background: #d75696;
+}
+
+.jingcai a:hover {
+    background: #3ba5dd;
+}
+
+.slider {
+    position: relative;
+    width: 470px;
+    height: 300px;
+    margin: 10px auto;
+    overflow: hidden;
+}
+
+.slide {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+}
+
+.shang {
+    position: absolute;
+    left: -25px;
+    top: 50%;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    width: 50px;
+    height: 50px;
+    background: rgba(0, 0, 0, .3);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.xia {
+    position: absolute;
+    right: -25px;
+    top: 50%;
+    color: white;
+    text-align: left;
+    line-height: 50px;
+    width: 50px;
+    height: 50px;
+    background: rgba(0, 0, 0, .3);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.slider ul {
+    position: absolute;
+    bottom: 10px;
+    right: 0;
+    width: 300px;
+    height: 40px;
+}
+
+.slider ul li {
+    float: left;
+    list-style: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 3px solid white;
+    cursor: pointer;
+}
+
+.aside {
+    position: absolute;
+    right: 10px;
+    top: 460px;
+    width: 60px;
+    border-radius: 5px;
+    font-size: 13px;
+    text-align: center;
+    overflow: hidden;
+    background: white;
+}
+
+.aside li {
+    list-style: none;
+    height: 40px;
+    border-bottom: 1px solid #f4f4f4;
+}
+
+.aside li:nth-child(5) {
+    display: none;
+}
+
+.aside li:nth-child(2) a {
+    color: #ff699b;
+}
+
+.aside li:nth-child(3) a {
+    color: #c8d75e;
+}
+
+.aside li:nth-child(4) a {
+    color: #ff9b76;
+}
+
+.aside a {
+    text-decoration: none;
+    color: #656565;
+    font-weight: 27px;
+}
+
+.aside li:hover {
+    background: #ff8715;
+}
+
+.aside li:hover a {
+    color: white;
+}
+
+.foot {
+    width: 900px;
+    height: 600px;
+}
+
+.swiper-container {
+    margin-top: 29px;
+    width: 470px;
+    height: 170px;
+}
+
+.swiper-container img {
+    width: 200px;
+    height: 150px;
+}
+
+.swiper-container a {
+    display: inline-block;
+    margin: 10px 10px;
+}
+
+.adt {
+    width: 180px;
+    height: 270px;
+    background: chocolate;
+    margin-top: 10px;
+}
+
+.adb {
+    width: 180px;
+    height: 200px;
+    margin-top: 4px;
+}
+
+.news img {
+    width: 100%;
+    height: 100%;
+}
+
+.minelogo {
+    margin: 10px auto;
+    width: 50px;
+    height: 50px;
+    background: coral;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.minelogo img {
+    width: 54px;
+    height: 54px;
+}
+
+.minelist {
+    width: 260px;
+    height: 30px;
+    margin-top: 20px;
+}
+
+.minelist li {
+    float: left;
+    width: 60px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin-left: 16px;
+    background: #ff6b06;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.minelist li a {
+    color: white;
+    text-decoration: none;
+}
+
+.taoxiaopu {
+    width: 260px;
+    height: 60px;
+    margin-top: 20px;
+    border: 1px solid #f4f4f4;
+}
+
+.taoxiaopu img {
+    width: 100%;
+    height: 100%;
+}
+
+.minenav {
+    margin-left: 10px;
+    height: 20px;
+}
+
+.mines {
+    width: 220px;
+    height: 40px;
+    margin-top: 10px;
+}
+
+.mineitems {
+    height: 70px;
+    margin-top: 10px;
+    border-bottom: 1px solid #f4f4f4;
+}
+
+.mineitems li {
+    width: 40px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+}
+
+.mineitems li:hover {
+    border-bottom: 2px solid red;
+}
+
+.mineitems li:hover a {
+    color: red;
+}
+
+.mineitems a {
+    font-size: 12px;
+    text-decoration: none;
+    color: black;
+}
+
+.mineitem {
+    display: none;
+    width: 240px;
+    margin-left: 10px;
+    height: 30px;
+    overflow: hidden;
+}
+
+.mineitem a:hover {
+    color: red;
+}
+
+.jiudian {
+    width: 260px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.jiudianlist {
+    width: 24%;
+    height: 60px;
+    border-right: 1px solid #f4f4f4;
+    border-bottom: 1px solid #f4f4f4;
+}
+
+.jiudianlist img {
+    width: 100%;
+}
+
+.jiudianlist:hover a {
+    color: red;
+}
+
+.jiudian a {
+    text-decoration: none;
+    color: #9f769d;
+    font-size: 12px;
+}
+
+.jiudian a div {
+    text-align: center;
+}
+
+.foot {
+    width: 240px;
+    height: 80px;
+}
+
+.tou {
+    width: 240px;
+    height: 20px;
+}
+
+.tou h5 {
+    float: left;
+}
+
+.tou a {
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    float: right;
+}
+
+.tou a:hover {
+    color: red;
+}
+
+.footimg {
+    margin-top: 10px;
+    width: 240px;
+    height: 40px;
+    margin-left: 5px;
+}
+
+.footimg li {
+    float: left;
+    width: 40px;
+    height: 40px;
+}
+
+.footimg li img {
+    width: 100%;
+    height: 100%;
+}
